@@ -1,0 +1,21 @@
+# Build artifacts
+Debug/
+Release/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# CodeLite files
+.codelite/
+*.project
+*.workspace
+
+# Other files
+*.mk
+*.txt
+*.json
+*.db
+.clangd
+.clang-format
