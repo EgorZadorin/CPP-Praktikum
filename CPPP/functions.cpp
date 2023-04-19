@@ -1,6 +1,10 @@
 #include "functions.hpp"
 #include <iostream>
 
+/*
+* Aufgabe 1.2d) Erweiterung durch einen enum-Typen
+*/	
+
 void print_spaces(int n) {
 	for (int i = 0; i < n; ++i) {
 		std::cout << ' ';
