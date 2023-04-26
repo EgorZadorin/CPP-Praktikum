@@ -13,3 +13,5 @@ Release/
 *.db
 .clangd
 .clang-format
+.codelite
+.mk
