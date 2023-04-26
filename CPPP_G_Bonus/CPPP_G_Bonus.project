@@ -3,6 +3,7 @@
   <Description/>
   <Dependencies/>
   <VirtualDirectory Name="src">
+    <File Name="src/rational.test.cpp"/>
     <File Name="rational.hpp"/>
     <File Name="rational.cpp"/>
     <File Name="main.cpp"/>
