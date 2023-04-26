@@ -1,6 +1,7 @@
-# Build artifacts
+# Build and Codelite artifacts
 Debug/
 Release/
+.codelite/
 
 # Temporary files
 *.tmp
@@ -13,5 +14,4 @@ Release/
 *.db
 .clangd
 .clang-format
-.codelite
 .mk
