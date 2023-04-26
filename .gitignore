@@ -15,3 +15,6 @@ Release/
 .clangd
 .clang-format
 .mk
+
+#But not Cmake
+!CmakeLists.txt
