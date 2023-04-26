@@ -32,3 +32,22 @@ void print_figure(int n, Direction d) {
 		print_stars(i);
 	}
 }
+
+/*
+* Aufgabe 1.2f) Eingabe  der Richtung
+*/
+
+Direction enter_direction() {
+	int i;
+	while (1) {
+		std::cout << "Enter 0 for the Left direction or 1 for the Right" << std::endl;
+		std::cin >> i;
+		if (i > 1 || i < 0) {
+			std::cout << "Please, enter the correct value, you entered: " << i << std::endl;
+		} else {
+			break;
+		}
+
+	}
+	return i == 0 ? Left : Right;
+}

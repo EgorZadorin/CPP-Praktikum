@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ CPPP1 - Debug ]----------"
-	@cd "CPPP" && "$(MAKE)" -f  "CPPP1.mk"
+	@echo "----------Building project:[ CPPP_G_Bonus - Debug ]----------"
+	@cd "CPPP_G_Bonus" && "$(MAKE)" -f  "CPPP_G_Bonus.mk"
 clean:
-	@echo "----------Cleaning project:[ CPPP1 - Debug ]----------"
-	@cd "CPPP" && "$(MAKE)" -f  "CPPP1.mk" clean
+	@echo "----------Cleaning project:[ CPPP_G_Bonus - Debug ]----------"
+	@cd "CPPP_G_Bonus" && "$(MAKE)" -f  "CPPP_G_Bonus.mk" clean

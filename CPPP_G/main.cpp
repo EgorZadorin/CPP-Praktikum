@@ -47,6 +47,22 @@ int main() {
 	
 	std::cout << std::endl << "print_figure(5, Right) function returned this:" << std::endl << std::endl;
 	print_figure(5, Right);
-	 
-	 
+	
+	/*
+	 * Aufgabe 1.2f) Eingabe
+	 */	
+	
+	int width, width_max = 50;
+	while (1) {
+		std::cout << std::endl << "Please, enter the width of the pattern and press ENTER" << std::endl;
+		std::cin >> width;
+		if (width > width_max) {
+			std::cout << "The width cannot be greater than maximal possible width = " << width_max << std::endl;
+		} else {
+			break;
+		}
+	}
+	
+	enter_direction();
+	
 }
