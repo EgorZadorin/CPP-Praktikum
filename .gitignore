@@ -17,4 +17,4 @@ Release/
 .mk
 
 #But not Cmake
-!CmakeLists.txt
+!CMakeLists.txt
