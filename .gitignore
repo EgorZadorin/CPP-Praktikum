@@ -2,6 +2,8 @@
 Debug/
 Release/
 .codelite/
+*.workspace
+*.project
 
 # Temporary files
 *.tmp
@@ -12,9 +14,10 @@ Release/
 *.txt
 *.json
 *.db
+*.mk
 .clangd
 .clang-format
-.mk
+
 
 #But not Cmake
 !CMakeLists.txt
