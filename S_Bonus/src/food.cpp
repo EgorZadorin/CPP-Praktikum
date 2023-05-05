@@ -50,4 +50,5 @@ void laden(const std::string& dateiname, std::vector<Food>& speisen) {
         }
 		
 		datei.close();
+    }
 }

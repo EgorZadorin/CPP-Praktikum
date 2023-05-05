@@ -10,14 +10,14 @@ include_directories(
 )
 
 add_library(common OBJECT
-    src/food.cpp
-    src/map.cpp
+        src/food.cpp
+        src/map.cpp
 )
 
 # Executable
 add_executable(tasks
     $<TARGET_OBJECTS:common>
-    src/main.cpp
+        src/main.cpp
 )
 
 # Fetch Catch2
@@ -33,11 +33,11 @@ FetchContent_MakeAvailable(Catch2)
 enable_testing()
 add_executable(tests
     $<TARGET_OBJECTS:common>
-    src/food.test.cpp
-    src/map.test.cpp
+        src/food.test.cpp
+        src/map.test.cpp
 )
 target_link_libraries(tests PRIVATE Catch2::Catch2WithMain)
-target_include_directories(tests PRIVATE src/)
+target_include_directories(tests PRIVATE src)
 
 # Register Tests
 add_test(tests env CTEST_OUTPUT_ON_FAILURE=1 ./tests)
