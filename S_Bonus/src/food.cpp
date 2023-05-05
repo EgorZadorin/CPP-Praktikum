@@ -37,7 +37,7 @@ void laden(const std::string& dateiname, std::vector<Food>& speisen) {
 		throw std::runtime_error("Datei konnte nicht geöffnet werden");
 	}
 	speisen.clear();
-	
+
 	std::string zeile;
     while (std::getline(datei, zeile)) {
         std::istringstream ss(zeile);
@@ -48,7 +48,11 @@ void laden(const std::string& dateiname, std::vector<Food>& speisen) {
             !std::getline(ss, preis_str)) {
             throw std::runtime_error("Ungültiges Format der CSV-Datei");
         }
-		
-		datei.close();
+
+        int bestellnr = std::stoi(bestellnr_str);
+        double preis = std::stod(preis_str);
+
+        Food new_food(bestellnr, bezeichnung, preis);
+        speisen.push_back(new_food);
     }
 }
