@@ -13,7 +13,6 @@ namespace cppp {
     public:
         Map(const std::size_t size);
         Map(const Map& other) = delete;
-        ~Map();
 
         void insert(const std::string& key, const std::vector<Item>& order);
         std::vector<Item> get(const std::string& key);
@@ -29,6 +28,6 @@ namespace cppp {
         };
         using MapBucket = std::vector<MapElement>;
 
-        MapBucket* arr;
+        std::vector<MapBucket> arr;
     };
 }

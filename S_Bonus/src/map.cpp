@@ -5,11 +5,7 @@
 #include <algorithm>
 
 cppp::Map::Map(const std::size_t size) : size(size) {
-    // TODO
-}
-
-cppp::Map::~Map() {
-    // TODO
+    arr.reserve(size);
 }
 
 void cppp::Map::insert(const std::string& key, const std::vector<Item>& order) {
@@ -25,5 +21,9 @@ void cppp::Map::remove(const std::string& key) {
 }
 
 std::size_t cppp::Map::calcHash(const std::string& key) {
-    return 0; // TODO
+    int sum = 0;
+    for (char const& i : key) {
+        sum += i;
+    }
+    return (std::size_t) sum % size;
 }
