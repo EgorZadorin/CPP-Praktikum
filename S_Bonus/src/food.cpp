@@ -19,19 +19,19 @@ int Food::getBestellnummer() const {
 }
 
 void speichern(const std::string& dateiname, const std::vector<Food>& speisen) {
-    std::ofstream datei(dateiname);
-	
-	for(const auto& speise : speisen){
+    std::fstream datei(dateiname, std::fstream::out);
+
+	for(const Food& speise : speisen) {
 		datei	<< speise.getBestellnummer()<<";"
 				<< speise.getBezeichnung()<<";"
 				<< speise.getPreis()<<std::endl;
-		}
-		
+    }
+
 	datei.close();
 }
 
 void laden(const std::string& dateiname, std::vector<Food>& speisen) {
-	std::ifstream datei(dateiname);
+	std::fstream datei(dateiname, std::fstream::in);
 
 	if (!datei.is_open()) {
 		throw std::runtime_error("Datei konnte nicht geöffnet werden");
@@ -50,9 +50,11 @@ void laden(const std::string& dateiname, std::vector<Food>& speisen) {
         }
 
         int bestellnr = std::stoi(bestellnr_str);
-        double preis = std::stod(preis_str);
+        float preis = std::stof(preis_str);
 
         Food new_food(bestellnr, bezeichnung, preis);
         speisen.push_back(new_food);
     }
+
+    datei.close();
 }
