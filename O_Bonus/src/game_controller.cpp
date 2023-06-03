@@ -28,14 +28,14 @@ void GameController::play(Player& cross, Player& circle) {
         }
 
         if (board.whoWon() == GameStatus::CROSS) {
-            std::cout << "Sie haben gewinnen! :)" << std::endl;
+            std::cout << "Sie haben gewonnen! :)" << std::endl;
         } else if (board.whoWon() == GameStatus::CIRCLE){
             std::cout << "Sie haben verloren! :(" << std::endl;
         }
 
         std::string ans;
         while (true) {
-            std::cout << "Wollen Sie erneut spielen? Antworten 1 falls Ja und 0 falls Nein" << std::endl;
+            std::cout << "Wollen Sie wieder spielen? Antworten 1 wenn ja und 0 wenn nein" << std::endl;
             std::getline(std::cin, ans);
             if (std::stoi(ans) == 1 || std::stoi(ans) == 0) {
                 break;

@@ -11,8 +11,8 @@ int main() {
     std::string ans;
 
     while (true) {
-        std::cout << "Gegen welchen der drei Computerspieler Sie spielen möchten?" <<
-                     "Antworten 0 falls random, 1 falls normal, 2 falls perfect" << std::endl;
+        std::cout << "Gegen welchen der drei Computerspieler würden Sie gerne spielen?" <<
+        "Antworten 0 - zufällig, 1 - normal, 2 - ideal" << std::endl;
         std::getline(std::cin, ans);
         if (std::stoi(ans) == 2 || std::stoi(ans) == 1 || std::stoi(ans) == 0) {
             break;
