@@ -1,0 +1,14 @@
+C:/Users/ailia/Documents/GitHub/CPPP/OO_Bonus/cmake-build-debug/CMakeFiles/common.dir
+C:/Users/ailia/Documents/GitHub/CPPP/OO_Bonus/cmake-build-debug/CMakeFiles/tasks.dir
+C:/Users/ailia/Documents/GitHub/CPPP/OO_Bonus/cmake-build-debug/CMakeFiles/tests.dir
+C:/Users/ailia/Documents/GitHub/CPPP/OO_Bonus/cmake-build-debug/CMakeFiles/test.dir
+C:/Users/ailia/Documents/GitHub/CPPP/OO_Bonus/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/ailia/Documents/GitHub/CPPP/OO_Bonus/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/ailia/Documents/GitHub/CPPP/OO_Bonus/cmake-build-debug/_deps/catch2-build/CMakeFiles/test.dir
+C:/Users/ailia/Documents/GitHub/CPPP/OO_Bonus/cmake-build-debug/_deps/catch2-build/CMakeFiles/edit_cache.dir
+C:/Users/ailia/Documents/GitHub/CPPP/OO_Bonus/cmake-build-debug/_deps/catch2-build/CMakeFiles/rebuild_cache.dir
+C:/Users/ailia/Documents/GitHub/CPPP/OO_Bonus/cmake-build-debug/_deps/catch2-build/src/CMakeFiles/Catch2.dir
+C:/Users/ailia/Documents/GitHub/CPPP/OO_Bonus/cmake-build-debug/_deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir
+C:/Users/ailia/Documents/GitHub/CPPP/OO_Bonus/cmake-build-debug/_deps/catch2-build/src/CMakeFiles/test.dir
+C:/Users/ailia/Documents/GitHub/CPPP/OO_Bonus/cmake-build-debug/_deps/catch2-build/src/CMakeFiles/edit_cache.dir
+C:/Users/ailia/Documents/GitHub/CPPP/OO_Bonus/cmake-build-debug/_deps/catch2-build/src/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,10 @@
+# ninja log v5
+49	481	7073099166127936	CMakeFiles/common.dir/src/normal_player.cpp.obj	43f61c94768f2a1a
+23	486	7073099166143054	CMakeFiles/common.dir/src/random_player.cpp.obj	e12e79256adfe419
+36	500	7073099166383786	CMakeFiles/tasks.dir/src/tictactoe.cpp.obj	8bce6cac18515f06
+30	521	7073099166597327	CMakeFiles/common.dir/src/player.cpp.obj	402f7a4c3a1f6a6c
+42	531	7073099166692624	CMakeFiles/common.dir/src/game_controller.cpp.obj	bfe426d199b700a0
+0	538	7073099166756298	CMakeFiles/common.dir/src/board.cpp.obj	7011f8acf05bb0f7
+16	548	7073099166871534	CMakeFiles/common.dir/src/human_player.cpp.obj	1f0e320d42b260ec
+58	596	7073099167343326	CMakeFiles/common.dir/src/perfect_player.cpp.obj	e9dfba3001906f52
+596	833	7073099169654434	tasks.exe	96e167c6d27252c1
